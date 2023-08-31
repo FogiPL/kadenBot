@@ -571,7 +571,7 @@ async def translate(ctx, *, text):
 
 @bot.command()
 async def features(ctx):
-    await ctx.send("## Here's full list of features so fogi won't forget\n* `!translate (text)` - translates text from polish to english\n* `!features` - you are reading this\n* `!quote (text)` - adds quote to list, write only !quote to send random quote already added\n* `!quote_list` - works only in dms with bot. shows full list of quotes added\n* `!auroracounter` - counter that tracks how many times aurora said n-word\n* `!size (user)` - mention someone in (user), or leave blank to ask bot about his penis size\n* `!secret` - command available only for fogi. contains screenshot out of context")
+    await ctx.send("## Here's full list of features so fogi won't forget\n* `!translate (text)` - translates text from polish to english\n* `!features` - you are reading this\n* `!quote (text)` - adds quote to list, write only !quote to send random quote already added\n* `!quote_list` - works only in dms with bot. shows full list of quotes added\n* `!auroracounter` - counter that tracks how many times aurora said n-word\n* `!size (user)` - mention someone in (user), or leave blank to ask bot about his penis size\n* `!secret` - command available only for fogi. contains screenshot out of context\n\nsource code:\nhttps://github.com/FogiPL/kadenBot")
 
 
 bot.run('TOKEN')
